@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  /* gap: 5px 5px; */
+  align-items: center;
+}
+
+.cards {
+  background-color: blueviolet;
+  border: brown;
+  border: 1px solid black;
+}
